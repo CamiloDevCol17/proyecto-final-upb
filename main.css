@@ -1,0 +1,21 @@
+.table{
+    border-radius: 4px solid;
+    width: 100%;
+    margin: 0;
+    display: block;
+    border: 2px solid;
+    text-align: center;
+    justify-content: center;
+    
+}
+th{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+}
+td:last-child(even){
+    background: blue;
+}

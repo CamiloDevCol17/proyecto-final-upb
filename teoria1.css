@@ -1,0 +1,19 @@
+*{
+    color: white;
+    font-family: 'Fasthand', cursive;
+    font-size: 30px;
+    background-image: url("https://d2kq0urxkarztv.cloudfront.net/58bc8d9ff18dec4e2e6d6de2/748092/upload-14974050-6871-11e8-8997-8fe8a093ab0e.png?e=webp&nll=true");
+}
+form{
+    padding: 200px;
+    justify-content: center;
+    text-align: center;
+
+}
+input{
+    color: red;
+}
+button{
+    background: green;
+    color: #86c971
+}

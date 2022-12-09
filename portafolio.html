@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios con Javascript</title>
+
+    <script src="main2.js"></script>
+    <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+
+    <div class="container2">
+        <table>
+            <thead>
+                <h1 style="text-align: center; background-color: #829424; color: white;" class="text-header">Solución de problemas en: Javascript</h1>
+            </thead>
+            <tbody>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario ingresar una frase y la imprima en la consola.
+                        <br><br>
+                        <label for="">Solución del problema: </label>
+                        <div class="solution1">
+                            <label for="">Ingresa una frase: </label>
+                            <input type="text" placeholder="Hola soy Camilo" id="p1">
+                            <button onclick="p1()">Mostrar frase</button>
+                            <br><br><p class="solucion">Solucionado</p>
+                        </div>
+                    </p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario ingresar un número, luego le pide un segundo número, e imprima en la consola la suma de los dos números que ingresó el usuario.</p>
+                        <br><br>
+                        <label for="">Solución del problema: </label>
+                        <div class="solution2">
+                            <label for="">Ingresa n1 to sumar: </label>
+                            <input type="number" placeholder="123456789" id="p2">
+                            <label for="">Ingresa n2 to sumar: </label>
+                            <input type="number" placeholder="123456789" id="p2-1">
+                            <br><button onclick="p2()">Mostrar Suma</button>
+                            <br><br><p class="solucion">Solucionado</p>
+                        </div>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pregunte al usuario su nombre e imprima "Hola " seguido del nombre y un signo de exclamación.
+
+                            Por ejemplo, si el usuario ingresa "Pedro" el programa debe imprimir en la consola "Hola Pedro!".</p>
+                            <br><label for="">Solución del problema</label>
+                            <div class="solution3">
+                                <label for="Ingresa su nombre: ">Inggresa su nombre: </label>
+                                <input type="text" id="name">
+
+                                <button onclick="p3()">Mostrar Solución</button>
+                                <br><br><p class="solucion">Solucionado</p>
+                            </div>
+                        </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario su año de nacimiento e imprima su edad actual en la consola con la frase "Tienes X años". Por ejemplo, asumiendo que el año actual es 2020 y el usuario ingresa 2000, el programa debe imprimir en la consola:
+
+                            Tienes 20 años</p>
+                            <br><label for="Solución del problema: ">Solución del problema: </label>
+                            <div class="solution4">
+                                <label for="">Año de nacimiento: </label>
+                                <input type="number" id="date" placeholder="2002">
+                                <button onclick="p4()">Mostrar Solución</button>
+                                <br><br><p class="solucion">Solucionado</p>
+                            </div>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario su peso y su altura para calcular su BMI e imprima la frase "Tu BMI es X".
+
+                            Por ejemplo, si el usuario ingresa 65 de peso y 1.8 de altura el programa debe imprimir en la consola la frase "Tu BMI es 20.061728395061728".</p>
+                            <label for="">Formula: </label><b>peso / altura^2
+                            <br><label for="">Solución del problema: </label>
+                            <div class="solution5">
+                                <label for="">Introduce su peso: </label><input type="number" placeholder="65" id="peso">
+                                <label for="">Introduce su altura: </label><input type="number" placeholder="1.8 metros" id="h">
+                                <button onclick="p5()">Mostrar BMI</button>
+                                <br><br><p class="solucion">Solucionado</p>
+                            </div>
+                            </b>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida un número al usuario e imprima en la consola si el número es mayor o menor/igual a 10.
+
+                            Si es mayor debe imprimir "El número es mayor a 10".
+                            
+                            Si es menor debe imprimir "El número es menor o igual a 10"</p>
+                            <label for="">Solución del problema: </label>
+                            <div class="solution6">
+                                <label for="">Ingresa un numero: </label>
+                                <input type="number" placeholder="123456789" id="n1">
+                            <button onclick="p6()">Mostra solución</button>
+                            <br><br><p class="solucion">Solucionado</p>
+                            </div>
+                        </td>
+                </tr>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que piense un número de forma aleatoria del 1 al 10 y le pida al usuario que lo trate de adivinar. Si el número es correcto debe imprimir en la consola "Felicitaciones, ese era!", de lo contrario debe imprimir "Lo siento, intenta nuevamente!"</p>
+                        <label for="">Solución del problema: </label>
+                        <div class="solution7">
+                            <label for="In">Adivina el numero entre 0-10: </label><br>
+                            <label for="">Ingresa inicial: </label>
+                            <input type="number" placeholder="123456789" id="r1">
+                            <label for="">Ingresa fin: </label>
+                            <input type="number" placeholder="123456789" id="r2">
+                            <input type="number" placeholder="1234567890" id="numero">
+                            <button onclick="p7=(r1, r2)">Mostrar solución</button>
+                        </div>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario un número e imprima si es un múltiplo de 5 o no.
+
+                            Si es múltiplo debe imprimir "Si, el número x es múltiplo 5", de lo contrario debe imprimir "No, el número x no es múltiplo de 5".</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida un número al usuario e imprima en la consola si el número si es mayor, menor o igual que 10.
+
+                            Si el número es menor a 10 debe imprimir "El número es menor que 10".
+                            
+                            Si el número es mayor a 10 debe imprimir "El número es mayor que 10".
+                            
+                            Si el número es igual a 10 debe imprimir "El número es igual a 10".</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario su peso y altura. El programa deberá calcular el BMI e imprimir:
+
+                            "Bajo de peso" si el BMI < 18.5
+                            "Normal" si está entre 18.5 y 24.9
+                            "Sobrepeso" si está entre 25 y 29.9
+                            "Obeso" si es igual o mayor a 30
+                            </p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Escribe un programa que le pida al usuario ingresar un número.
+
+                            Si el número es múltiplo de 3 debe imprimir en la consola "bing".
+                            Si el número es múltiplo de 5 debe imprimir en la consola "bong".
+                            Si el número es múltiplo tanto de 3 como de 5 debe imprimir en la consola "bingbong".
+                            Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo número.
+                            </p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Conocido el numero en matematica PI, pedir al usuario que ingrese el valor del radio de una circunferencia
+                             y calcular y mostrar por pantalle el area y perimetro.
+                             Recuerde que para </p><br>
+                             <label for="">Solucion del problema: </label><br>
+                             <b>Formula: </b><p>RADIO = PI*(RADIO*RADIO)</p>
+                             <div class="solution11">
+                                <label for="">Ingresa el valor del radio: </label>
+                                <input type="number" plaCEHOLDER="12345567890" id="radio">
+                                <button onclick="p11()">Enviar</button>
+                                <br><br><p class="solucion">Solucionado</p>
+
+                             </div>
+                    </td>
+
+                    
+                </tr>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                </tr>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                </tr>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                </tr>
+                <tr class="problema" id="problema#">
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                    <td>
+                        <label for="">Descripcion del problema: </label>
+                        <p>Describa aca su problema</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
